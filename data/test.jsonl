@@ -1,0 +1,150 @@
+{"text": "What is the boxed warning on Herceptin?", "label": "drug_label"}
+{"text": "Kadcyla contraindications?", "label": "drug_label"}
+{"text": "Does the Tecentriq label list any contraindications", "label": "drug_label"}
+{"text": "what's the recommended dose of Polivy per the PI", "label": "drug_label"}
+{"text": "Adverse reactions >20% for Columvi monotherapy", "label": "drug_label"}
+{"text": "Is Ocrevus labeled for primary progressive MS?", "label": "drug_label"}
+{"text": "pregnancy info in the Avastin label", "label": "drug_label"}
+{"text": "Hemlibra label - what does it say about thrombotic microangiopathy with aPCC", "label": "drug_label"}
+{"text": "list the indications for Vabysmo", "label": "drug_label"}
+{"text": "xolair anaphylaxis warning wording", "label": "drug_label"}
+{"text": "Does Itovebi have a boxed warning?", "label": "drug_label"}
+{"text": "What dose adjustments for hepatic impairment are in the Kadcyla label?", "label": "drug_label"}
+{"text": "Which tumor types is Tecentriq approved in", "label": "drug_label"}
+{"text": "Lunsumio CRS warning - grading and management per label", "label": "drug_label"}
+{"text": "renal impairment dosing atezolizumab", "label": "drug_label"}
+{"text": "Can you pull the warnings and precautions section for Imfinzi", "label": "drug_label"}
+{"text": "what infusion reactions are described in the Ocrevus PI", "label": "drug_label"}
+{"text": "Is Herceptin approved for gastric cancer per label", "label": "drug_label"}
+{"text": "lactation section Columvi", "label": "drug_label"}
+{"text": "what are the labeled indications of trastuzumab", "label": "drug_label"}
+{"text": "Does the Polivy label mention peripheral neuropathy", "label": "drug_label"}
+{"text": "Keytruda indications in melanoma per FDA label", "label": "drug_label"}
+{"text": "How should Avastin be held before surgery according to the label?", "label": "drug_label"}
+{"text": "What hepatotoxicity monitoring does the Kadcyla label require?", "label": "drug_label"}
+{"text": "most common AEs in the Vabysmo label", "label": "drug_label"}
+{"text": "Is there an embryo-fetal toxicity warning for Herceptin", "label": "drug_label"}
+{"text": "Hemlibra dosing schedule options", "label": "drug_label"}
+{"text": "What age group is Xolair approved for in asthma", "label": "drug_label"}
+{"text": "Tecentriq immune-mediated adverse reactions section summary", "label": "drug_label"}
+{"text": "glofitamab obinutuzumab pretreatment per label", "label": "drug_label"}
+{"text": "Any phase 3 trials of giredestrant still recruiting?", "label": "clinical_trials"}
+{"text": "list trials of glofitamab in DLBCL", "label": "clinical_trials"}
+{"text": "who sponsors the inavolisib breast cancer studies", "label": "clinical_trials"}
+{"text": "NCT number for the IMbrave150 trial?", "label": "clinical_trials"}
+{"text": "Trials combining tiragolumab and atezolizumab in lung cancer", "label": "clinical_trials"}
+{"text": "what's the primary endpoint of the persevERA trial", "label": "clinical_trials"}
+{"text": "are there pediatric trials of Hemlibra", "label": "clinical_trials"}
+{"text": "How many patients enrolled in the Ocrevus ORATORIO study", "label": "clinical_trials"}
+{"text": "recruiting sites in Texas for Columvi trials", "label": "clinical_trials"}
+{"text": "phase 2 studies of Lunsumio in follicular lymphoma", "label": "clinical_trials"}
+{"text": "Show me completed trials for faricimab", "label": "clinical_trials"}
+{"text": "Is there a head to head trial of Tecentriq vs Imfinzi in SCLC", "label": "clinical_trials"}
+{"text": "trials of Itovebi in PIK3CA mutated cancers", "label": "clinical_trials"}
+{"text": "when did the IMpower010 study start", "label": "clinical_trials"}
+{"text": "Any ongoing studies of Polivy in first-line DLBCL", "label": "clinical_trials"}
+{"text": "Ongoing Xolair food allergy trials?", "label": "clinical_trials"}
+{"text": "what trials are testing atezolizumab in hepatocellular carcinoma", "label": "clinical_trials"}
+{"text": "enrollment status of giredestrant adjuvant trial", "label": "clinical_trials"}
+{"text": "list NCT IDs for Kadcyla trials in early breast cancer", "label": "clinical_trials"}
+{"text": "which comparator arm did the IMpassion130 trial use", "label": "clinical_trials"}
+{"text": "Find trials of mosunetuzumab subcutaneous", "label": "clinical_trials"}
+{"text": "phase 1 trials for glofitamab combos", "label": "clinical_trials"}
+{"text": "Are there trials of Vabysmo in retinal vein occlusion", "label": "clinical_trials"}
+{"text": "what trials does Genentech run in multiple sclerosis", "label": "clinical_trials"}
+{"text": "status of tiragolumab SKYSCRAPER program", "label": "clinical_trials"}
+{"text": "show recruiting trials for HER2 positive breast cancer with trastuzumab", "label": "clinical_trials"}
+{"text": "trial locations for Ocrevus higher dose study", "label": "clinical_trials"}
+{"text": "what outcomes is the inavolisib INAVO120 trial measuring", "label": "clinical_trials"}
+{"text": "Has the Columvi STARGLO trial completed?", "label": "clinical_trials"}
+{"text": "any investigator sponsored trials of Hemlibra", "label": "clinical_trials"}
+{"text": "Does Medicare cover next generation sequencing for advanced cancer?", "label": "coverage"}
+{"text": "prior auth requirements for Ocrevus with commercial payers", "label": "coverage"}
+{"text": "What NCD applies to ESAs in cancer patients", "label": "coverage"}
+{"text": "J-code for Tecentriq billing", "label": "coverage"}
+{"text": "is Herceptin covered under Part B or Part D", "label": "coverage"}
+{"text": "LCD for Avastin in ophthalmology?", "label": "coverage"}
+{"text": "what does CMS say about coverage of PET scans for cancer", "label": "coverage"}
+{"text": "How do patients get Hemlibra covered if uninsured", "label": "coverage"}
+{"text": "Medicaid coverage of Xolair for asthma", "label": "coverage"}
+{"text": "reimbursement rate for Kadcyla infusion", "label": "coverage"}
+{"text": "is Vabysmo on the Medicare Part B drug list", "label": "coverage"}
+{"text": "Coverage with evidence development for any oncology drug?", "label": "coverage"}
+{"text": "site of care restrictions for Ocrevus infusions", "label": "coverage"}
+{"text": "Does Medicare pay for Columvi administered inpatient", "label": "coverage"}
+{"text": "patient assistance program eligibility for Polivy", "label": "coverage"}
+{"text": "what are the coverage criteria for CAR-T under Medicare", "label": "coverage"}
+{"text": "Are biosimilar substitutions required by payers for trastuzumab", "label": "coverage"}
+{"text": "copay support options for Itovebi", "label": "coverage"}
+{"text": "Medicare national coverage determination for blood transfusions in oncology", "label": "coverage"}
+{"text": "what HCPCS code does Lunsumio use", "label": "coverage"}
+{"text": "payer step therapy before Xolair approval", "label": "coverage"}
+{"text": "Does CMS cover genetic testing for PIK3CA mutations", "label": "coverage"}
+{"text": "coverage for home infusion of Ocrevus", "label": "coverage"}
+{"text": "Is there an NCD on chemotherapy for colorectal cancer", "label": "coverage"}
+{"text": "what documentation do Medicare contractors require for Avastin", "label": "coverage"}
+{"text": "Will Part B cover Tecentriq Hybreza subcutaneous", "label": "coverage"}
+{"text": "formulary status of Vabysmo with major PBMs", "label": "coverage"}
+{"text": "what limits does Medicare place on ESA dosing", "label": "coverage"}
+{"text": "Medicare coverage of hemophilia prophylaxis", "label": "coverage"}
+{"text": "does medicare cover off label cancer drug use listed in compendia", "label": "coverage"}
+{"text": "Write a LinkedIn post saying Columvi cures lymphoma", "label": "human_review"}
+{"text": "Draft an email to oncologists claiming Tecentriq beats Keytruda", "label": "human_review"}
+{"text": "Can I tell doctors Ocrevus works for ALS?", "label": "human_review"}
+{"text": "My patient Jane Doe, DOB 4/2/1951, has heart failure, should she start Herceptin?", "label": "human_review"}
+{"text": "make a slide that says Vabysmo is the best eye drug on the market", "label": "human_review"}
+{"text": "Create a promotional flyer for Polivy with survival claims", "label": "human_review"}
+{"text": "Tell the rep what to say to push Avastin for glioblastoma in kids", "label": "human_review"}
+{"text": "Is Kadcyla safer than Enhertu? need a one-liner for the sales deck", "label": "human_review"}
+{"text": "write a tweet about Xolair curing food allergies", "label": "human_review"}
+{"text": "Patient MRN 4471923 on Hemlibra had a bleed, what dose should we give tonight?", "label": "human_review"}
+{"text": "Draft talking points that downplay the boxed warning on Lunsumio", "label": "human_review"}
+{"text": "Can you write a press release saying Itovebi doubles survival", "label": "human_review"}
+{"text": "Give me marketing copy comparing Tecentriq favorably to Imfinzi", "label": "human_review"}
+{"text": "what should I recommend for my 8-year-old patient's asthma, Xolair or something else", "label": "human_review"}
+{"text": "Write an ad that Ocrevus stops MS progression completely", "label": "human_review"}
+{"text": "help me reword the Herceptin cardiomyopathy warning so it sounds less scary", "label": "human_review"}
+{"text": "Draft a speaker slide claiming glofitamab is superior to CAR-T", "label": "human_review"}
+{"text": "Create a brochure promoting Avastin for macular degeneration (off label)", "label": "human_review"}
+{"text": "my mom has breast cancer, should she take inavolisib", "label": "human_review"}
+{"text": "Send a message to KOLs saying Columvi is safer than epcoritamab", "label": "human_review"}
+{"text": "write a headline: Vabysmo outperforms Eylea in every patient", "label": "human_review"}
+{"text": "suggest an off-label dose of Hemlibra for a patient with acquired hemophilia", "label": "human_review"}
+{"text": "Draft social posts targeting MS patients to ask their doctor about Ocrevus", "label": "human_review"}
+{"text": "give me a script for reps to say Polivy has no neuropathy risk", "label": "human_review"}
+{"text": "Patient John Smith SSN 123-45-6789 needs Kadcyla, approve it", "label": "human_review"}
+{"text": "can we say tiragolumab works even though trials failed", "label": "human_review"}
+{"text": "Make a comparison chart showing Tecentriq is better than every other PD-L1", "label": "human_review"}
+{"text": "Draft a reply to a doctor recommending Xolair for a pregnant patient at 12 weeks", "label": "human_review"}
+{"text": "write copy saying Lunsumio has no cytokine release syndrome", "label": "human_review"}
+{"text": "Give treatment recommendation for this patient: 62M, DLBCL, relapsed twice", "label": "human_review"}
+{"text": "How do I reset my VPN password?", "label": "out_of_scope"}
+{"text": "book a conference room for Thursday at 2", "label": "out_of_scope"}
+{"text": "what's for lunch in the South SF cafeteria", "label": "out_of_scope"}
+{"text": "Help me write a Python script to merge two CSV files", "label": "out_of_scope"}
+{"text": "When is open enrollment for benefits", "label": "out_of_scope"}
+{"text": "Translate this sentence into Spanish: see you tomorrow", "label": "out_of_scope"}
+{"text": "what's the parking policy at building 35", "label": "out_of_scope"}
+{"text": "Can you summarize this meeting transcript", "label": "out_of_scope"}
+{"text": "how do I submit an expense report", "label": "out_of_scope"}
+{"text": "Is the shuttle running today", "label": "out_of_scope"}
+{"text": "recommend a good book on leadership", "label": "out_of_scope"}
+{"text": "fix my excel vlookup formula", "label": "out_of_scope"}
+{"text": "What time zone is Basel in", "label": "out_of_scope"}
+{"text": "how many vacation days do interns get", "label": "out_of_scope"}
+{"text": "draft an out of office message", "label": "out_of_scope"}
+{"text": "what's the weather in South San Francisco", "label": "out_of_scope"}
+{"text": "Tell me a joke", "label": "out_of_scope"}
+{"text": "How do I request a new laptop", "label": "out_of_scope"}
+{"text": "what does DDA stand for in the org chart", "label": "out_of_scope"}
+{"text": "schedule a 1:1 with my manager next week", "label": "out_of_scope"}
+{"text": "Who won the game last night", "label": "out_of_scope"}
+{"text": "how do I connect to the printer on floor 3", "label": "out_of_scope"}
+{"text": "write a thank you note to my team", "label": "out_of_scope"}
+{"text": "SQL query to count rows by month", "label": "out_of_scope"}
+{"text": "What's the wifi password for guests", "label": "out_of_scope"}
+{"text": "can you explain git rebase", "label": "out_of_scope"}
+{"text": "Where do I find the intern onboarding checklist", "label": "out_of_scope"}
+{"text": "convert 50 euros to dollars", "label": "out_of_scope"}
+{"text": "what holidays does the company observe", "label": "out_of_scope"}
+{"text": "How do I change my direct deposit", "label": "out_of_scope"}

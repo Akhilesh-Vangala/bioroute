@@ -1,0 +1,9 @@
+# Core (pip install -e .)
+numpy>=1.26.0
+scikit-learn>=1.4.0
+pydantic>=2.7.0
+httpx>=0.27.0
+
+# ML routers: pip install -e ".[transformers]"
+# Plotting:    pip install -e ".[plot]"
+# Dev:         pip install -e ".[dev]"
