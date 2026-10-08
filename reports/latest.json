@@ -1,0 +1,76 @@
+{
+  "routes": [
+    "clinical_evidence",
+    "coverage",
+    "drug_labeling",
+    "human_review"
+  ],
+  "n_train": 16,
+  "n_test": 8,
+  "models": [
+    {
+      "model": "tfidf_logreg_raw",
+      "macro_f1": 0.65,
+      "per_class_recall": {
+        "clinical_evidence": 0.0,
+        "coverage": 1.0,
+        "drug_labeling": 1.0,
+        "human_review": 1.0
+      },
+      "ece": 0.5652013915895813,
+      "brier": 0.6239924259389433,
+      "human_review_fnr": 0.0,
+      "abstention": {
+        "coverage": 0.0,
+        "precision_kept": 0.0,
+        "abstain_rate": 1.0
+      },
+      "latency_ms_per_request_est": 3.8119583750813035,
+      "cost_per_1000_requests_usd_est": 0.02,
+      "license_note": "TF-IDF/LR: self-hosted, no model license issue. Hosted LLM stub: replace with real Claude API pricing. BiomedBERT/DistilBERT: add under optional transformers extra."
+    },
+    {
+      "model": "tfidf_logreg_calibrated",
+      "macro_f1": 0.65,
+      "per_class_recall": {
+        "clinical_evidence": 0.0,
+        "coverage": 1.0,
+        "drug_labeling": 1.0,
+        "human_review": 1.0
+      },
+      "ece": 0.28106572345648084,
+      "brier": 0.37162333125113656,
+      "human_review_fnr": 0.0,
+      "abstention": {
+        "coverage": 0.625,
+        "precision_kept": 1.0,
+        "abstain_rate": 0.375
+      },
+      "latency_ms_per_request_est": 4.002556293835369,
+      "cost_per_1000_requests_usd_est": 0.02,
+      "license_note": "TF-IDF/LR: self-hosted, no model license issue. Hosted LLM stub: replace with real Claude API pricing. BiomedBERT/DistilBERT: add under optional transformers extra."
+    },
+    {
+      "model": "hosted_llm_stub",
+      "macro_f1": 1.0,
+      "per_class_recall": {
+        "clinical_evidence": 1.0,
+        "coverage": 1.0,
+        "drug_labeling": 1.0,
+        "human_review": 1.0
+      },
+      "ece": 0.05555555555555555,
+      "brier": 0.04938271604938271,
+      "human_review_fnr": 0.0,
+      "abstention": {
+        "coverage": 1.0,
+        "precision_kept": 1.0,
+        "abstain_rate": 0.0
+      },
+      "latency_ms_per_request_est": 350.0,
+      "cost_per_1000_requests_usd_est": 3.5,
+      "license_note": "TF-IDF/LR: self-hosted, no model license issue. Hosted LLM stub: replace with real Claude API pricing. BiomedBERT/DistilBERT: add under optional transformers extra."
+    }
+  ],
+  "decision_memo_prompt": "Which classifier is accurate enough, calibrated enough, fast enough, and economical enough to front a CMG healthcare agent?"
+}
