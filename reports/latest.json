@@ -1,76 +1,143 @@
 {
+  "generated_at": "2026-10-08T16:28:10Z",
   "routes": [
-    "clinical_evidence",
+    "drug_label",
+    "clinical_trials",
     "coverage",
-    "drug_labeling",
-    "human_review"
+    "human_review",
+    "out_of_scope"
   ],
-  "n_train": 16,
-  "n_test": 8,
+  "n_train": 603,
+  "n_val": 107,
+  "n_test": 150,
+  "hardware": "Apple M4, 16 GB (MPS)",
   "models": [
     {
-      "model": "tfidf_logreg_raw",
-      "macro_f1": 0.65,
-      "per_class_recall": {
-        "clinical_evidence": 0.0,
-        "coverage": 1.0,
-        "drug_labeling": 1.0,
-        "human_review": 1.0
+      "model": "tfidf_logreg (uncalibrated)",
+      "macro_f1": 0.773,
+      "accuracy": 0.773,
+      "recall_by_route": {
+        "drug_label": 0.767,
+        "clinical_trials": 0.933,
+        "coverage": 0.733,
+        "human_review": 0.767,
+        "out_of_scope": 0.667
       },
-      "ece": 0.5652013915895813,
-      "brier": 0.6239924259389433,
-      "human_review_fnr": 0.0,
-      "abstention": {
-        "coverage": 0.0,
-        "precision_kept": 0.0,
-        "abstain_rate": 1.0
-      },
-      "latency_ms_per_request_est": 3.9495468754466856,
-      "cost_per_1000_requests_usd_est": 0.02,
-      "license_note": "TF-IDF/LR: self-hosted, no model license issue. Hosted LLM stub: replace with real Claude API pricing. BiomedBERT/DistilBERT: add under optional transformers extra."
+      "human_review_recall": 0.767,
+      "ece": 0.261,
+      "brier": 0.429,
+      "latency_ms_p50_single_request": 0.2,
+      "cost_per_1k_requests_usd": 0.0,
+      "license": "BSD-3 (scikit-learn)",
+      "hosting": "self-hosted",
+      "data_handling": "stays on our infrastructure"
     },
     {
-      "model": "tfidf_logreg_calibrated",
-      "macro_f1": 0.65,
-      "per_class_recall": {
-        "clinical_evidence": 0.0,
-        "coverage": 1.0,
-        "drug_labeling": 1.0,
-        "human_review": 1.0
+      "model": "tfidf_logreg (temperature-scaled)",
+      "macro_f1": 0.773,
+      "accuracy": 0.773,
+      "recall_by_route": {
+        "drug_label": 0.767,
+        "clinical_trials": 0.933,
+        "coverage": 0.733,
+        "human_review": 0.767,
+        "out_of_scope": 0.667
       },
-      "ece": 0.28106572345648084,
-      "brier": 0.37162333125113656,
-      "human_review_fnr": 0.0,
-      "abstention": {
-        "coverage": 0.625,
-        "precision_kept": 1.0,
-        "abstain_rate": 0.375
-      },
-      "latency_ms_per_request_est": 4.14702421921902,
-      "cost_per_1000_requests_usd_est": 0.02,
-      "license_note": "TF-IDF/LR: self-hosted, no model license issue. Hosted LLM stub: replace with real Claude API pricing. BiomedBERT/DistilBERT: add under optional transformers extra."
+      "human_review_recall": 0.767,
+      "ece": 0.152,
+      "brier": 0.374,
+      "latency_ms_p50_single_request": 0.2,
+      "cost_per_1k_requests_usd": 0.0,
+      "license": "BSD-3 (scikit-learn)",
+      "hosting": "self-hosted",
+      "data_handling": "stays on our infrastructure",
+      "temperature": 0.128
     },
     {
-      "model": "hosted_llm_stub",
+      "model": "answerdotai/ModernBERT-base (fine-tuned, uncalibrated)",
+      "macro_f1": 0.77,
+      "accuracy": 0.767,
+      "recall_by_route": {
+        "drug_label": 0.8,
+        "clinical_trials": 0.833,
+        "coverage": 0.8,
+        "human_review": 0.833,
+        "out_of_scope": 0.567
+      },
+      "human_review_recall": 0.833,
+      "ece": 0.085,
+      "brier": 0.326,
+      "latency_ms_p50_single_request": 12.8,
+      "cost_per_1k_requests_usd": 0.0,
+      "license": "Apache-2.0",
+      "hosting": "self-hosted",
+      "data_handling": "stays on our infrastructure",
+      "params_millions": 149.6,
+      "train_seconds_m4": 178.1
+    },
+    {
+      "model": "answerdotai/ModernBERT-base (fine-tuned, temperature-scaled)",
+      "macro_f1": 0.77,
+      "accuracy": 0.767,
+      "recall_by_route": {
+        "drug_label": 0.8,
+        "clinical_trials": 0.833,
+        "coverage": 0.8,
+        "human_review": 0.833,
+        "out_of_scope": 0.567
+      },
+      "human_review_recall": 0.833,
+      "ece": 0.082,
+      "brier": 0.325,
+      "latency_ms_p50_single_request": 12.8,
+      "cost_per_1k_requests_usd": 0.0,
+      "license": "Apache-2.0",
+      "hosting": "self-hosted",
+      "data_handling": "stays on our infrastructure",
+      "params_millions": 149.6,
+      "train_seconds_m4": 178.1,
+      "temperature": 1.024
+    },
+    {
+      "model": "qwen2.5:7b (zero-shot, verbalized confidence)",
+      "macro_f1": 0.987,
+      "accuracy": 0.987,
+      "recall_by_route": {
+        "drug_label": 0.967,
+        "clinical_trials": 1.0,
+        "coverage": 0.967,
+        "human_review": 1.0,
+        "out_of_scope": 1.0
+      },
+      "human_review_recall": 1.0,
+      "ece": 0.024,
+      "brier": 0.027,
+      "latency_ms_p50_single_request": 1881.2,
+      "cost_per_1k_requests_usd": 0.0,
+      "license": "Apache-2.0 (Qwen2.5-7B)",
+      "hosting": "self-hosted (Ollama)",
+      "data_handling": "stays on our infrastructure"
+    },
+    {
+      "model": "claude-haiku-5-5 (zero-shot, verbalized confidence)",
       "macro_f1": 1.0,
-      "per_class_recall": {
-        "clinical_evidence": 1.0,
+      "accuracy": 1.0,
+      "recall_by_route": {
+        "drug_label": 1.0,
+        "clinical_trials": 1.0,
         "coverage": 1.0,
-        "drug_labeling": 1.0,
-        "human_review": 1.0
+        "human_review": 1.0,
+        "out_of_scope": 1.0
       },
-      "ece": 0.2021407943134835,
-      "brier": 0.09129660210336413,
-      "human_review_fnr": 0.0,
-      "abstention": {
-        "coverage": 0.875,
-        "precision_kept": 1.0,
-        "abstain_rate": 0.125
-      },
-      "latency_ms_per_request_est": 350.0,
-      "cost_per_1000_requests_usd_est": 3.5,
-      "license_note": "TF-IDF/LR: self-hosted, no model license issue. Hosted LLM stub: replace with real Claude API pricing. BiomedBERT/DistilBERT: add under optional transformers extra."
+      "human_review_recall": 1.0,
+      "ece": 0.058,
+      "brier": 0.006,
+      "latency_ms_p50_single_request": 1853.2,
+      "cost_per_1k_requests_usd": 0.0527,
+      "license": "Anthropic commercial terms",
+      "hosting": "hosted API",
+      "data_handling": "sent to vendor; governed by contract and retention settings",
+      "cost_note": "API list price computed from measured tokens; latency via headless Claude Code includes CLI overhead"
     }
-  ],
-  "decision_memo_prompt": "Which classifier is accurate enough, calibrated enough, fast enough, and economical enough to front a CMG healthcare agent?"
+  ]
 }
