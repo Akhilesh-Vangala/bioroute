@@ -1,8 +1,8 @@
-# BioRoute
+# Agent Router Bench
 
 **Which model should route requests in a healthcare agent workflow?** An agent needs a fast classifier in front of it to send each request to the right workflow (drug label, clinical trials, coverage), catch requests that must go to a human compliance reviewer, and reject off-topic ones. This benchmark compares a fine-tuned open-weight encoder, a classical baseline, a self-hosted open-weight LLM, and a hosted LLM on **accuracy, calibration, latency, cost, licensing, and data handling**.
 
-The routes match the agent in [cmg-deep-claude-agent](https://github.com/Akhilesh-Vangala/cmg-deep-claude-agent): `drug_label`, `clinical_trials`, `coverage`, `human_review`, `out_of_scope`.
+The routes match the agent in [evidence-mcp-agent](https://github.com/Akhilesh-Vangala/evidence-mcp-agent): `drug_label`, `clinical_trials`, `coverage`, `human_review`, `out_of_scope`.
 
 ## Results (150 held-out requests, 30 per route)
 
