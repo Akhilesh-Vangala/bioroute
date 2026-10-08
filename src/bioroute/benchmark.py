@@ -17,22 +17,27 @@ from bioroute.metrics import abstain_coverage, brier_multiclass, expected_calibr
 
 
 def _hosted_llm_stub_predict(texts: list[str], classes: list[str]) -> np.ndarray:
-    """Keyword heuristic standing in for a hosted Claude classifier (demo/cost baseline)."""
+    """Noisy keyword heuristic as a *placeholder* for hosted Claude classification.
+
+    Intentionally imperfect so cost/quality tradeoffs are honest until a real
+    Anthropic API baseline is wired with ANTHROPIC_API_KEY.
+    """
+    rng = np.random.default_rng(7)
     n = len(classes)
     probs = np.full((len(texts), n), 1.0 / n)
     for i, text in enumerate(texts):
         t = text.lower()
-        scores = np.zeros(n)
+        scores = np.ones(n) * 0.15
         if any(k in t for k in ["label", "warning", "fda", "indication", "adverse"]):
-            scores[classes.index("drug_labeling")] += 2
+            scores[classes.index("drug_labeling")] += 1.6
         if any(k in t for k in ["trial", "nct", "clinicaltrials", "phase"]):
-            scores[classes.index("clinical_evidence")] += 2
+            scores[classes.index("clinical_evidence")] += 1.6
         if any(k in t for k in ["cms", "medicare", "coverage", "ncd", "lcd"]):
-            scores[classes.index("coverage")] += 2
+            scores[classes.index("coverage")] += 1.6
         if any(k in t for k in ["off-label", "superior", "promotional", "phi", "approve"]):
-            scores[classes.index("human_review")] += 2.5
-        if scores.sum() == 0:
-            scores[:] = 1
+            scores[classes.index("human_review")] += 1.8
+        scores = scores + rng.normal(0, 0.12, size=n).clip(-0.2, 0.2)
+        scores = np.clip(scores, 1e-3, None)
         probs[i] = scores / scores.sum()
     return probs
 

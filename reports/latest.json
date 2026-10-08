@@ -25,7 +25,7 @@
         "precision_kept": 0.0,
         "abstain_rate": 1.0
       },
-      "latency_ms_per_request_est": 3.8119583750813035,
+      "latency_ms_per_request_est": 3.9495468754466856,
       "cost_per_1000_requests_usd_est": 0.02,
       "license_note": "TF-IDF/LR: self-hosted, no model license issue. Hosted LLM stub: replace with real Claude API pricing. BiomedBERT/DistilBERT: add under optional transformers extra."
     },
@@ -46,7 +46,7 @@
         "precision_kept": 1.0,
         "abstain_rate": 0.375
       },
-      "latency_ms_per_request_est": 4.002556293835369,
+      "latency_ms_per_request_est": 4.14702421921902,
       "cost_per_1000_requests_usd_est": 0.02,
       "license_note": "TF-IDF/LR: self-hosted, no model license issue. Hosted LLM stub: replace with real Claude API pricing. BiomedBERT/DistilBERT: add under optional transformers extra."
     },
@@ -59,13 +59,13 @@
         "drug_labeling": 1.0,
         "human_review": 1.0
       },
-      "ece": 0.05555555555555555,
-      "brier": 0.04938271604938271,
+      "ece": 0.2021407943134835,
+      "brier": 0.09129660210336413,
       "human_review_fnr": 0.0,
       "abstention": {
-        "coverage": 1.0,
+        "coverage": 0.875,
         "precision_kept": 1.0,
-        "abstain_rate": 0.0
+        "abstain_rate": 0.125
       },
       "latency_ms_per_request_est": 350.0,
       "cost_per_1000_requests_usd_est": 3.5,
